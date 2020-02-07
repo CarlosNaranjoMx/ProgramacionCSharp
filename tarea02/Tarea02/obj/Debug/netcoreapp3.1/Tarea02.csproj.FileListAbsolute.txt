@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\Tarea02\Tarea02\obj\Debug\netcoreapp3.1\Tarea02.csprojAssemblyReference.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\Tarea02\Tarea02\obj\Debug\netcoreapp3.1\Tarea02.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\Tarea02\Tarea02\obj\Debug\netcoreapp3.1\Tarea02.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\Tarea02\Tarea02\bin\Debug\netcoreapp3.1\Tarea02.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\Tarea02\Tarea02\bin\Debug\netcoreapp3.1\Tarea02.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\Tarea02\Tarea02\bin\Debug\netcoreapp3.1\Tarea02.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\Tarea02\Tarea02\bin\Debug\netcoreapp3.1\Tarea02.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\Tarea02\Tarea02\bin\Debug\netcoreapp3.1\Tarea02.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\Tarea02\Tarea02\bin\Debug\netcoreapp3.1\Tarea02.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\Tarea02\Tarea02\obj\Debug\netcoreapp3.1\Tarea02.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\Tarea02\Tarea02\obj\Debug\netcoreapp3.1\Tarea02.pdb
