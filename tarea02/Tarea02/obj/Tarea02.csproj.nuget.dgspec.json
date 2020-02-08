@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\tarea02\\Tarea02\\Tarea02.csproj": {}
+    "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\Tarea02\\Tarea02\\Tarea02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\tarea02\\Tarea02\\Tarea02.csproj": {
+    "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\Tarea02\\Tarea02\\Tarea02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\tarea02\\Tarea02\\Tarea02.csproj",
+        "projectUniqueName": "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\Tarea02\\Tarea02\\Tarea02.csproj",
         "projectName": "Tarea02",
-        "projectPath": "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\tarea02\\Tarea02\\Tarea02.csproj",
+        "projectPath": "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\Tarea02\\Tarea02\\Tarea02.csproj",
         "packagesPath": "C:\\Users\\cnaranjo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\tarea02\\Tarea02\\obj\\",
+        "outputPath": "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\Tarea02\\Tarea02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cnaranjo\\AppData\\Roaming\\NuGet\\NuGet.Config",
