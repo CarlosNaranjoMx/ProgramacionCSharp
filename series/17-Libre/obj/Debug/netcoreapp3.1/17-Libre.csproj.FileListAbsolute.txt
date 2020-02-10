@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\17-Libre\bin\Debug\netcoreapp3.1\17-Libre.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\17-Libre\bin\Debug\netcoreapp3.1\17-Libre.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\17-Libre\bin\Debug\netcoreapp3.1\17-Libre.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\17-Libre\bin\Debug\netcoreapp3.1\17-Libre.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\17-Libre\bin\Debug\netcoreapp3.1\17-Libre.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\17-Libre\bin\Debug\netcoreapp3.1\17-Libre.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\17-Libre\obj\Debug\netcoreapp3.1\17-Libre.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\17-Libre\obj\Debug\netcoreapp3.1\17-Libre.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\17-Libre\obj\Debug\netcoreapp3.1\17-Libre.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\17-Libre\obj\Debug\netcoreapp3.1\17-Libre.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\17-Libre\obj\Debug\netcoreapp3.1\17-Libre.csprojAssemblyReference.cache

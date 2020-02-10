@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\11-Matriz\11-Matriz\obj\Debug\netcoreapp3.1\11-Matriz.csprojAssemblyReference.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\11-Matriz\11-Matriz\obj\Debug\netcoreapp3.1\11-Matriz.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\11-Matriz\11-Matriz\obj\Debug\netcoreapp3.1\11-Matriz.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\11-Matriz\11-Matriz\bin\Debug\netcoreapp3.1\11-Matriz.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\11-Matriz\11-Matriz\bin\Debug\netcoreapp3.1\11-Matriz.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\11-Matriz\11-Matriz\bin\Debug\netcoreapp3.1\11-Matriz.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\11-Matriz\11-Matriz\bin\Debug\netcoreapp3.1\11-Matriz.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\11-Matriz\11-Matriz\bin\Debug\netcoreapp3.1\11-Matriz.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\11-Matriz\11-Matriz\bin\Debug\netcoreapp3.1\11-Matriz.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\11-Matriz\11-Matriz\obj\Debug\netcoreapp3.1\11-Matriz.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\11-Matriz\11-Matriz\obj\Debug\netcoreapp3.1\11-Matriz.pdb

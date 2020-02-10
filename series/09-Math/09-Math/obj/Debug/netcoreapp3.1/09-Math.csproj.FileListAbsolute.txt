@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\09-Math\09-Math\bin\Debug\netcoreapp3.1\09-Math.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\09-Math\09-Math\bin\Debug\netcoreapp3.1\09-Math.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\09-Math\09-Math\bin\Debug\netcoreapp3.1\09-Math.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\09-Math\09-Math\bin\Debug\netcoreapp3.1\09-Math.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\09-Math\09-Math\bin\Debug\netcoreapp3.1\09-Math.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\09-Math\09-Math\bin\Debug\netcoreapp3.1\09-Math.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\09-Math\09-Math\obj\Debug\netcoreapp3.1\09-Math.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\09-Math\09-Math\obj\Debug\netcoreapp3.1\09-Math.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\09-Math\09-Math\obj\Debug\netcoreapp3.1\09-Math.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\09-Math\09-Math\obj\Debug\netcoreapp3.1\09-Math.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\09-Math\09-Math\obj\Debug\netcoreapp3.1\09-Math.csprojAssemblyReference.cache

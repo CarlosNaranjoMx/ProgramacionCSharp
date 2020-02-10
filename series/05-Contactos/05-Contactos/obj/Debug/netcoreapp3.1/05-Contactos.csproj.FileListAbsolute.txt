@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\05-Contactos\05-Contactos\obj\Debug\netcoreapp3.1\05-Contactos.csprojAssemblyReference.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\05-Contactos\05-Contactos\obj\Debug\netcoreapp3.1\05-Contactos.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\05-Contactos\05-Contactos\obj\Debug\netcoreapp3.1\05-Contactos.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\05-Contactos\05-Contactos\bin\Debug\netcoreapp3.1\05-Contactos.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\05-Contactos\05-Contactos\bin\Debug\netcoreapp3.1\05-Contactos.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\05-Contactos\05-Contactos\bin\Debug\netcoreapp3.1\05-Contactos.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\05-Contactos\05-Contactos\bin\Debug\netcoreapp3.1\05-Contactos.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\05-Contactos\05-Contactos\bin\Debug\netcoreapp3.1\05-Contactos.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\05-Contactos\05-Contactos\bin\Debug\netcoreapp3.1\05-Contactos.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\05-Contactos\05-Contactos\obj\Debug\netcoreapp3.1\05-Contactos.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\05-Contactos\05-Contactos\obj\Debug\netcoreapp3.1\05-Contactos.pdb

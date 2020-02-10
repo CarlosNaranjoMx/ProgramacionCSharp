@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\03-Vocales\03-Vocales\bin\Debug\netcoreapp3.1\03-Vocales.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\03-Vocales\03-Vocales\bin\Debug\netcoreapp3.1\03-Vocales.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\03-Vocales\03-Vocales\bin\Debug\netcoreapp3.1\03-Vocales.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\03-Vocales\03-Vocales\bin\Debug\netcoreapp3.1\03-Vocales.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\03-Vocales\03-Vocales\bin\Debug\netcoreapp3.1\03-Vocales.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\03-Vocales\03-Vocales\bin\Debug\netcoreapp3.1\03-Vocales.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\03-Vocales\03-Vocales\obj\Debug\netcoreapp3.1\03-Vocales.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\03-Vocales\03-Vocales\obj\Debug\netcoreapp3.1\03-Vocales.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\03-Vocales\03-Vocales\obj\Debug\netcoreapp3.1\03-Vocales.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\03-Vocales\03-Vocales\obj\Debug\netcoreapp3.1\03-Vocales.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\03-Vocales\03-Vocales\obj\Debug\netcoreapp3.1\03-Vocales.csprojAssemblyReference.cache

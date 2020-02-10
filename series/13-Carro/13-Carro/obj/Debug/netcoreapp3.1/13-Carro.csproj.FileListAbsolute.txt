@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\13-Carro\13-Carro\bin\Debug\netcoreapp3.1\13-Carro.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\13-Carro\13-Carro\bin\Debug\netcoreapp3.1\13-Carro.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\13-Carro\13-Carro\bin\Debug\netcoreapp3.1\13-Carro.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\13-Carro\13-Carro\bin\Debug\netcoreapp3.1\13-Carro.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\13-Carro\13-Carro\bin\Debug\netcoreapp3.1\13-Carro.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\13-Carro\13-Carro\bin\Debug\netcoreapp3.1\13-Carro.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\13-Carro\13-Carro\obj\Debug\netcoreapp3.1\13-Carro.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\13-Carro\13-Carro\obj\Debug\netcoreapp3.1\13-Carro.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\13-Carro\13-Carro\obj\Debug\netcoreapp3.1\13-Carro.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\13-Carro\13-Carro\obj\Debug\netcoreapp3.1\13-Carro.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\13-Carro\13-Carro\obj\Debug\netcoreapp3.1\13-Carro.csprojAssemblyReference.cache

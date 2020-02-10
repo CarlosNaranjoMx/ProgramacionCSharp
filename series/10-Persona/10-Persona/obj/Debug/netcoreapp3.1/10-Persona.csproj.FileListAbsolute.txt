@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\10-Persona\10-Persona\obj\Debug\netcoreapp3.1\10-Persona.csprojAssemblyReference.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\10-Persona\10-Persona\obj\Debug\netcoreapp3.1\10-Persona.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\10-Persona\10-Persona\obj\Debug\netcoreapp3.1\10-Persona.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\10-Persona\10-Persona\bin\Debug\netcoreapp3.1\10-Persona.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\10-Persona\10-Persona\bin\Debug\netcoreapp3.1\10-Persona.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\10-Persona\10-Persona\bin\Debug\netcoreapp3.1\10-Persona.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\10-Persona\10-Persona\bin\Debug\netcoreapp3.1\10-Persona.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\10-Persona\10-Persona\bin\Debug\netcoreapp3.1\10-Persona.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\10-Persona\10-Persona\bin\Debug\netcoreapp3.1\10-Persona.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\10-Persona\10-Persona\obj\Debug\netcoreapp3.1\10-Persona.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\10-Persona\10-Persona\obj\Debug\netcoreapp3.1\10-Persona.pdb

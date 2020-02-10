@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\08-Auto\08-Auto\bin\Debug\netcoreapp3.1\08-Auto.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\08-Auto\08-Auto\bin\Debug\netcoreapp3.1\08-Auto.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\08-Auto\08-Auto\bin\Debug\netcoreapp3.1\08-Auto.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\08-Auto\08-Auto\bin\Debug\netcoreapp3.1\08-Auto.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\08-Auto\08-Auto\bin\Debug\netcoreapp3.1\08-Auto.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\08-Auto\08-Auto\bin\Debug\netcoreapp3.1\08-Auto.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\08-Auto\08-Auto\obj\Debug\netcoreapp3.1\08-Auto.csprojAssemblyReference.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\08-Auto\08-Auto\obj\Debug\netcoreapp3.1\08-Auto.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\08-Auto\08-Auto\obj\Debug\netcoreapp3.1\08-Auto.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\08-Auto\08-Auto\obj\Debug\netcoreapp3.1\08-Auto.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\08-Auto\08-Auto\obj\Debug\netcoreapp3.1\08-Auto.pdb

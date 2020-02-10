@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\12-BecarioMart\12-BecarioMart\bin\Debug\netcoreapp3.1\12-BecarioMart.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\12-BecarioMart\12-BecarioMart\bin\Debug\netcoreapp3.1\12-BecarioMart.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\12-BecarioMart\12-BecarioMart\bin\Debug\netcoreapp3.1\12-BecarioMart.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\12-BecarioMart\12-BecarioMart\bin\Debug\netcoreapp3.1\12-BecarioMart.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\12-BecarioMart\12-BecarioMart\bin\Debug\netcoreapp3.1\12-BecarioMart.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\12-BecarioMart\12-BecarioMart\bin\Debug\netcoreapp3.1\12-BecarioMart.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\12-BecarioMart\12-BecarioMart\obj\Debug\netcoreapp3.1\12-BecarioMart.csprojAssemblyReference.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\12-BecarioMart\12-BecarioMart\obj\Debug\netcoreapp3.1\12-BecarioMart.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\12-BecarioMart\12-BecarioMart\obj\Debug\netcoreapp3.1\12-BecarioMart.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\12-BecarioMart\12-BecarioMart\obj\Debug\netcoreapp3.1\12-BecarioMart.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\12-BecarioMart\12-BecarioMart\obj\Debug\netcoreapp3.1\12-BecarioMart.pdb

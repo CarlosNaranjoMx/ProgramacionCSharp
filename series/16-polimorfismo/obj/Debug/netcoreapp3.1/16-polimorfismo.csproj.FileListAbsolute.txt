@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\16-polimorfismo\bin\Debug\netcoreapp3.1\16-polimorfismo.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\16-polimorfismo\bin\Debug\netcoreapp3.1\16-polimorfismo.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\16-polimorfismo\bin\Debug\netcoreapp3.1\16-polimorfismo.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\16-polimorfismo\bin\Debug\netcoreapp3.1\16-polimorfismo.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\16-polimorfismo\bin\Debug\netcoreapp3.1\16-polimorfismo.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\16-polimorfismo\bin\Debug\netcoreapp3.1\16-polimorfismo.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\16-polimorfismo\obj\Debug\netcoreapp3.1\16-polimorfismo.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\16-polimorfismo\obj\Debug\netcoreapp3.1\16-polimorfismo.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\16-polimorfismo\obj\Debug\netcoreapp3.1\16-polimorfismo.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\16-polimorfismo\obj\Debug\netcoreapp3.1\16-polimorfismo.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\16-polimorfismo\obj\Debug\netcoreapp3.1\16-polimorfismo.csprojAssemblyReference.cache

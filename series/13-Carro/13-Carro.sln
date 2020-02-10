@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-Carro", "13-Carro\13-Carro.csproj", "{2D41A85B-D70A-4FFD-925E-4AB1EE0170A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-Interfaz", "..\14-Interfaz\14-Interfaz.csproj", "{87C9C28F-EF13-40BA-BEC6-B2E0D0ABD9D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D41A85B-D70A-4FFD-925E-4AB1EE0170A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D41A85B-D70A-4FFD-925E-4AB1EE0170A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D41A85B-D70A-4FFD-925E-4AB1EE0170A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D41A85B-D70A-4FFD-925E-4AB1EE0170A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C9C28F-EF13-40BA-BEC6-B2E0D0ABD9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C9C28F-EF13-40BA-BEC6-B2E0D0ABD9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C9C28F-EF13-40BA-BEC6-B2E0D0ABD9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C9C28F-EF13-40BA-BEC6-B2E0D0ABD9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D2A99A4-458B-4D92-B02D-08FC8C31AA8C}
+	EndGlobalSection
+EndGlobal

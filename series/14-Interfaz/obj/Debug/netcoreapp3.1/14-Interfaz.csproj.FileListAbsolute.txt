@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\14-Interfaz\bin\Debug\netcoreapp3.1\14-Interfaz.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\14-Interfaz\bin\Debug\netcoreapp3.1\14-Interfaz.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\14-Interfaz\bin\Debug\netcoreapp3.1\14-Interfaz.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\14-Interfaz\bin\Debug\netcoreapp3.1\14-Interfaz.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\14-Interfaz\bin\Debug\netcoreapp3.1\14-Interfaz.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\14-Interfaz\bin\Debug\netcoreapp3.1\14-Interfaz.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\14-Interfaz\obj\Debug\netcoreapp3.1\14-Interfaz.csprojAssemblyReference.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\14-Interfaz\obj\Debug\netcoreapp3.1\14-Interfaz.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\14-Interfaz\obj\Debug\netcoreapp3.1\14-Interfaz.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\14-Interfaz\obj\Debug\netcoreapp3.1\14-Interfaz.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\14-Interfaz\obj\Debug\netcoreapp3.1\14-Interfaz.pdb

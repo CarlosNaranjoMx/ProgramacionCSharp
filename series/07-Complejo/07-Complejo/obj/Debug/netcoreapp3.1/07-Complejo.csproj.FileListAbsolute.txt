@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\07-Complejo\07-Complejo\obj\Debug\netcoreapp3.1\07-Complejo.csprojAssemblyReference.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\07-Complejo\07-Complejo\obj\Debug\netcoreapp3.1\07-Complejo.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\07-Complejo\07-Complejo\obj\Debug\netcoreapp3.1\07-Complejo.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\07-Complejo\07-Complejo\bin\Debug\netcoreapp3.1\07-Complejo.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\07-Complejo\07-Complejo\bin\Debug\netcoreapp3.1\07-Complejo.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\07-Complejo\07-Complejo\bin\Debug\netcoreapp3.1\07-Complejo.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\07-Complejo\07-Complejo\bin\Debug\netcoreapp3.1\07-Complejo.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\07-Complejo\07-Complejo\bin\Debug\netcoreapp3.1\07-Complejo.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\07-Complejo\07-Complejo\bin\Debug\netcoreapp3.1\07-Complejo.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\07-Complejo\07-Complejo\obj\Debug\netcoreapp3.1\07-Complejo.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\07-Complejo\07-Complejo\obj\Debug\netcoreapp3.1\07-Complejo.pdb

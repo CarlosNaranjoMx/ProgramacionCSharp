@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\06-CuentaBancaria\06-CuentaBancaria\obj\Debug\netcoreapp3.1\06-CuentaBancaria.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\06-CuentaBancaria\06-CuentaBancaria\obj\Debug\netcoreapp3.1\06-CuentaBancaria.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\06-CuentaBancaria\06-CuentaBancaria\bin\Debug\netcoreapp3.1\06-CuentaBancaria.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\06-CuentaBancaria\06-CuentaBancaria\bin\Debug\netcoreapp3.1\06-CuentaBancaria.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\06-CuentaBancaria\06-CuentaBancaria\bin\Debug\netcoreapp3.1\06-CuentaBancaria.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\06-CuentaBancaria\06-CuentaBancaria\bin\Debug\netcoreapp3.1\06-CuentaBancaria.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\06-CuentaBancaria\06-CuentaBancaria\bin\Debug\netcoreapp3.1\06-CuentaBancaria.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\06-CuentaBancaria\06-CuentaBancaria\bin\Debug\netcoreapp3.1\06-CuentaBancaria.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\06-CuentaBancaria\06-CuentaBancaria\obj\Debug\netcoreapp3.1\06-CuentaBancaria.csprojAssemblyReference.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\06-CuentaBancaria\06-CuentaBancaria\obj\Debug\netcoreapp3.1\06-CuentaBancaria.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\06-CuentaBancaria\06-CuentaBancaria\obj\Debug\netcoreapp3.1\06-CuentaBancaria.pdb

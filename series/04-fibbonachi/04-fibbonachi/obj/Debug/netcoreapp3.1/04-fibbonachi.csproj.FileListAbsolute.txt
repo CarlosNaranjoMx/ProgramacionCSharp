@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\04-fibbonachi\04-fibbonachi\obj\Debug\netcoreapp3.1\04-fibbonachi.csprojAssemblyReference.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\04-fibbonachi\04-fibbonachi\obj\Debug\netcoreapp3.1\04-fibbonachi.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\04-fibbonachi\04-fibbonachi\obj\Debug\netcoreapp3.1\04-fibbonachi.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\04-fibbonachi\04-fibbonachi\bin\Debug\netcoreapp3.1\04-fibbonachi.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\04-fibbonachi\04-fibbonachi\bin\Debug\netcoreapp3.1\04-fibbonachi.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\04-fibbonachi\04-fibbonachi\bin\Debug\netcoreapp3.1\04-fibbonachi.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\04-fibbonachi\04-fibbonachi\bin\Debug\netcoreapp3.1\04-fibbonachi.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\04-fibbonachi\04-fibbonachi\bin\Debug\netcoreapp3.1\04-fibbonachi.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\04-fibbonachi\04-fibbonachi\bin\Debug\netcoreapp3.1\04-fibbonachi.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\04-fibbonachi\04-fibbonachi\obj\Debug\netcoreapp3.1\04-fibbonachi.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\04-fibbonachi\04-fibbonachi\obj\Debug\netcoreapp3.1\04-fibbonachi.pdb

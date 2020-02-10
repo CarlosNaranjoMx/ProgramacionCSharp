@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\15-Calculadora\bin\Debug\netcoreapp3.1\15-Calculadora.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\15-Calculadora\bin\Debug\netcoreapp3.1\15-Calculadora.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\15-Calculadora\bin\Debug\netcoreapp3.1\15-Calculadora.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\15-Calculadora\bin\Debug\netcoreapp3.1\15-Calculadora.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\15-Calculadora\bin\Debug\netcoreapp3.1\15-Calculadora.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\15-Calculadora\bin\Debug\netcoreapp3.1\15-Calculadora.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\15-Calculadora\obj\Debug\netcoreapp3.1\15-Calculadora.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\15-Calculadora\obj\Debug\netcoreapp3.1\15-Calculadora.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\15-Calculadora\obj\Debug\netcoreapp3.1\15-Calculadora.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\15-Calculadora\obj\Debug\netcoreapp3.1\15-Calculadora.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\15-Calculadora\obj\Debug\netcoreapp3.1\15-Calculadora.csprojAssemblyReference.cache

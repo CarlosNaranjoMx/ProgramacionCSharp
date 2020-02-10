@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\02-multiplos\02-multiplos\obj\Debug\netcoreapp3.1\02-multiplos.csprojAssemblyReference.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\02-multiplos\02-multiplos\obj\Debug\netcoreapp3.1\02-multiplos.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\02-multiplos\02-multiplos\obj\Debug\netcoreapp3.1\02-multiplos.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\02-multiplos\02-multiplos\bin\Debug\netcoreapp3.1\02-multiplos.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\02-multiplos\02-multiplos\bin\Debug\netcoreapp3.1\02-multiplos.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\02-multiplos\02-multiplos\bin\Debug\netcoreapp3.1\02-multiplos.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\02-multiplos\02-multiplos\bin\Debug\netcoreapp3.1\02-multiplos.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\02-multiplos\02-multiplos\bin\Debug\netcoreapp3.1\02-multiplos.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\02-multiplos\02-multiplos\bin\Debug\netcoreapp3.1\02-multiplos.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\02-multiplos\02-multiplos\obj\Debug\netcoreapp3.1\02-multiplos.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\series\02-multiplos\02-multiplos\obj\Debug\netcoreapp3.1\02-multiplos.pdb
