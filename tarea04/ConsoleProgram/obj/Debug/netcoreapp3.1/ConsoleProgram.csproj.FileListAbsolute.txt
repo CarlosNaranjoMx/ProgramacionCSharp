@@ -1,0 +1,11 @@
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\tarea04\ConsoleProgram\bin\Debug\netcoreapp3.1\ConsoleProgram.exe
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\tarea04\ConsoleProgram\bin\Debug\netcoreapp3.1\ConsoleProgram.deps.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\tarea04\ConsoleProgram\bin\Debug\netcoreapp3.1\ConsoleProgram.runtimeconfig.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\tarea04\ConsoleProgram\bin\Debug\netcoreapp3.1\ConsoleProgram.runtimeconfig.dev.json
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\tarea04\ConsoleProgram\bin\Debug\netcoreapp3.1\ConsoleProgram.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\tarea04\ConsoleProgram\bin\Debug\netcoreapp3.1\ConsoleProgram.pdb
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\tarea04\ConsoleProgram\obj\Debug\netcoreapp3.1\ConsoleProgram.csprojAssemblyReference.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\tarea04\ConsoleProgram\obj\Debug\netcoreapp3.1\ConsoleProgram.AssemblyInfoInputs.cache
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\tarea04\ConsoleProgram\obj\Debug\netcoreapp3.1\ConsoleProgram.AssemblyInfo.cs
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\tarea04\ConsoleProgram\obj\Debug\netcoreapp3.1\ConsoleProgram.dll
+C:\Users\cnaranjo\02-github\ProgramacionCSharp\tarea04\ConsoleProgram\obj\Debug\netcoreapp3.1\ConsoleProgram.pdb
