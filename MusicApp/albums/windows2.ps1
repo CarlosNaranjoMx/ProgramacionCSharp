@@ -10,8 +10,7 @@ function Get-Album {
     $headers.Add("x-rapidapi-host", "deezerdevs-deezer.p.rapidapi.com")
     $headers.Add("x-rapidapi-key", "9df5865a80msh8eb11f35115ec57p1af4e4jsn60182eec8a44")
     $response = Invoke-RestMethod -Uri "https://deezerdevs-deezer.p.rapidapi.com/album/$id_album" -Method GET -Headers $headers
-    ############################################################################
-    $response | gm
+    # echo $($response | gm)
     return $response
 
 }
@@ -35,10 +34,9 @@ Function GetAlbum-Image{
 }
 
 # Llenamos una lista de objetos de tipo album
-$albums
+$albums=@()
 $list | % {
-    $album = $(Get-Album $_)
-    GetAlbum-Image $album
-    $albums += $album
+    # GetAlbum-Image $(Get-Album $_)
+    $albums += $(Get-Album $_)
 }
 $albums | ConvertTo-Json > "albums.json"
