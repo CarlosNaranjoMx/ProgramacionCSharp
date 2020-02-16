@@ -36,7 +36,7 @@ Function GetAlbum-Image{
 # Llenamos una lista de objetos de tipo album
 $albums=@()
 $list | % {
-    # GetAlbum-Image $(Get-Album $_)
+    GetAlbum-Image $(Get-Album $_)
     $albums += $(Get-Album $_)
 }
 $albums | ConvertTo-Json > "albums.json"
