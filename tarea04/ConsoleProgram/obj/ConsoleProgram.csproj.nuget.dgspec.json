@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\tarea04\\ConsoleProgram\\ConsoleProgram.csproj": {}
+    "C:\\Users\\cnaranjo\\TODO\\02-github\\ProgramacionCSharp\\tarea04\\ConsoleProgram\\ConsoleProgram.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\tarea04\\ConsoleProgram\\ConsoleProgram.csproj": {
+    "C:\\Users\\cnaranjo\\TODO\\02-github\\ProgramacionCSharp\\tarea04\\ConsoleProgram\\ConsoleProgram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\tarea04\\ConsoleProgram\\ConsoleProgram.csproj",
+        "projectUniqueName": "C:\\Users\\cnaranjo\\TODO\\02-github\\ProgramacionCSharp\\tarea04\\ConsoleProgram\\ConsoleProgram.csproj",
         "projectName": "ConsoleProgram",
-        "projectPath": "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\tarea04\\ConsoleProgram\\ConsoleProgram.csproj",
+        "projectPath": "C:\\Users\\cnaranjo\\TODO\\02-github\\ProgramacionCSharp\\tarea04\\ConsoleProgram\\ConsoleProgram.csproj",
         "packagesPath": "C:\\Users\\cnaranjo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cnaranjo\\02-github\\ProgramacionCSharp\\tarea04\\ConsoleProgram\\obj\\",
+        "outputPath": "C:\\Users\\cnaranjo\\TODO\\02-github\\ProgramacionCSharp\\tarea04\\ConsoleProgram\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cnaranjo\\AppData\\Roaming\\NuGet\\NuGet.Config",
