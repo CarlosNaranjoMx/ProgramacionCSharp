@@ -22,5 +22,21 @@ namespace MusicApp
             Busqueda frm2 = new Busqueda();
             frm2.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            Explorar explorar = new Explorar();
+            explorar.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
