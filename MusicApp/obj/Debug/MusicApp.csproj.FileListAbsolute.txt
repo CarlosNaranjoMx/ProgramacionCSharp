@@ -17,3 +17,4 @@ C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\obj\Debug\MusicApp.
 C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\obj\Debug\MusicApp.pdb
 C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\obj\Debug\MusicApp.Inicio.resources
 C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\obj\Debug\MusicApp.Busqueda.resources
+C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\obj\Debug\MusicApp.Explorar.resources

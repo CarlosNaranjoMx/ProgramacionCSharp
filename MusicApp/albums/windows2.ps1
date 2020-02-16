@@ -4,10 +4,13 @@
 # $response = Invoke-RestMethod -Uri 'https://deezerdevs-deezer.p.rapidapi.com/search?q=eminem' -Method GET -Headers $headers
 # $response | ConvertTo-Json > artista.json
 
-# $list = "212377","100323","12047960","54101842","86511","301752","304193","75621062"
-$list = "103798792","105974222","58574292"
+$list = "212377","100323","12047960","54101842","86511","301752","304193","75621062","103798792","105974222","58574292"
+$path = "C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\albums\"
 function Download-Album {
-    param ($id_album)
+    param (
+        $id_album,
+        $path
+    )
     $headers=@{}
     $headers.Add("x-rapidapi-host", "deezerdevs-deezer.p.rapidapi.com")
     $headers.Add("x-rapidapi-key", "9df5865a80msh8eb11f35115ec57p1af4e4jsn60182eec8a44")
@@ -16,7 +19,7 @@ function Download-Album {
     #Creacion del directorio
     New-Item $response.title -itemtype Directory -Force
     #Directorio de salida
-    $output = "C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\musicapp02\$($response.title)\"
+    $output = "$($response.title)\"
     New-Item "$output\previews" -itemtype Directory -Force
     ################################################################################
     # Toda la información
@@ -27,7 +30,7 @@ function Download-Album {
     # Generos del album
     $response.genres.data | ConvertTo-Json > "$($output)genres_$($response.title).json"
     # Imagen del album
-    Invoke-WebRequest -Uri $response.cover_big -OutFile "$output$($response.title).jpg"
+    Invoke-WebRequest -Uri $response.cover_small -OutFile "$output$($response.title).jpg"
     # Canciones del album
     Invoke-WebRequest -Uri $response.tracklist -OutFile "$($output)canciones_$($response.title).json" 
     
@@ -37,4 +40,4 @@ function Download-Album {
     }
 }
 
-$list | % { Download-Album $_}
+$list | % { Download-Album $_ $path}

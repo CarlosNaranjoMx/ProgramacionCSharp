@@ -77,6 +77,9 @@
     <EmbeddedResource Include="Busqueda.resx">
       <DependentUpon>Busqueda.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Explorar.resx">
+      <DependentUpon>Explorar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
