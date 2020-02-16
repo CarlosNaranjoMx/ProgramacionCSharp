@@ -17,12 +17,6 @@ namespace MusicApp
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Busqueda frm2 = new Busqueda();
-            frm2.Show();
-        }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
