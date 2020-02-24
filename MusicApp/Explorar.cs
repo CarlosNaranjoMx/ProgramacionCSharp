@@ -16,26 +16,16 @@ namespace MusicApp
         public Explorar()
         {
             InitializeComponent();
-            RellenaTabla();
+            ControladorExplorar.RellenaTabla(Albums);
         }
-
-        public void RellenaTabla()
-        {
-            List<AlbumClass> lista = Functions.JsonParse<AlbumClass>(@"..\..\albums\albums.json");
-            foreach (AlbumClass elem in lista)
-            {   
-                //Mostrar Nombres de los alubums
-                //using (StreamWriter sw = File.AppendText(@"..\..\WriteText.txt"))
-                //{
-                //    sw.WriteLine(elem.ToString());
-                //}
-                Image imagen = Image.FromFile($@"..\..\albums\images\{elem.title}\{elem.title}.jpg");
-                Object[] renglon = new Object[] {imagen,$"{elem.title}","17-17-17"};
-                Albums.Rows.Add(renglon);
-            }
-        }   
+ 
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
