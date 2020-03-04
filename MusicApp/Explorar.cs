@@ -16,7 +16,7 @@ namespace MusicApp
         public Explorar()
         {
             InitializeComponent();
-            ControladorExplorar.RellenaTabla(Albums);
+
         }
  
 
@@ -24,7 +24,11 @@ namespace MusicApp
         {
 
         }
-
+        /// <summary>
+        /// Boton para agregar al carrito
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
 
