@@ -11,7 +11,8 @@ namespace MusicApp
 {
     static class Program
     {
-        static List<Album> albumes;
+        public static List<Album> albumes;
+        public static List<Track> carrito;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -25,6 +26,10 @@ namespace MusicApp
             };
 
             albumes = JsonSerializer.Deserialize<List<Album>>(jsonString, options);
+            /*carrito = (from album in albumes
+                       from track in album.Tracks
+                       select track).ToList();*/
+            carrito = new List<Track>();
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

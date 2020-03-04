@@ -32,5 +32,11 @@ namespace MusicApp
         {
 
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Carrito carrito = new Carrito();
+            carrito.ShowDialog();
+        }
     }
 }

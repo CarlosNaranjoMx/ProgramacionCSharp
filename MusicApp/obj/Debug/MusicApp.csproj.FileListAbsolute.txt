@@ -54,3 +54,4 @@ C:\Users\acv62\Documents\ProgramacionCSharp\MusicApp\obj\Debug\MusicApp.csproj.C
 C:\Users\acv62\Documents\ProgramacionCSharp\MusicApp\obj\Debug\MusicApp.exe
 C:\Users\acv62\Documents\ProgramacionCSharp\MusicApp\obj\Debug\MusicApp.pdb
 C:\Users\acv62\Documents\ProgramacionCSharp\MusicApp\bin\Debug\tracks.json
+C:\Users\acv62\Documents\ProgramacionCSharp\MusicApp\obj\Debug\MusicApp.Carrito.resources
