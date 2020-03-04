@@ -18,9 +18,15 @@ namespace MusicApp
                 //{
                 //    sw.WriteLine(elem.ToString());
                 //}
-                System.Drawing.Image imagen = System.Drawing.Image.FromFile($@"..\..\albums\images\{elem.title}\{elem.title}.jpg");
-                Object[] renglon = new Object[] { imagen, $"{elem.title}", "17-17-17" };
-                Albums.Rows.Add(renglon);
+                // tHe given path format is not supported
+                try{
+                    System.Drawing.Image imagen = System.Drawing.Image.FromFile($@"..\..\albums\images\{elem.title}\{elem.title}.jpg");
+                    Object[] renglon = new Object[] { imagen, $"{elem.title}", "17-17-17" };
+                    Albums.Rows.Add(renglon);
+                }
+                catch { 
+                
+                }
             }
         }
     }
