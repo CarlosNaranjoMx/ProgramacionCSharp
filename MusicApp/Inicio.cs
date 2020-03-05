@@ -15,7 +15,8 @@ namespace MusicApp
 {
     public partial class Inicio : Form
     {
-        Mp3Player mp3Player = new Mp3Player();
+        public Boolean start= false;
+        WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
         public Inicio()
         {
             InitializeComponent();
@@ -200,15 +201,23 @@ namespace MusicApp
                 String Title = Canciones.Rows[e.RowIndex].Cells[0].Value.ToString();
                 //Nombre  del album
                 String Name = Canciones.Rows[e.RowIndex].Cells[1].Value.ToString();
+                
+                if (!start)
+                {
+                    String cadena = $@"..\..\albums\previews\{Name}\{Title}.mp3";
+                    //Mostrar Nombres de los albums
+                    String path = Path.GetFullPath(cadena);
+                    // tHe given path format is not supported
+                    wplayer.URL = path;
 
-                WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
-                String cadena = $@"..\..\albums\previews\{Name}\{Title}.mp3";
-                //Mostrar Nombres de los albums
-                String path = Path.GetFullPath(cadena);
-                // tHe given path format is not supported
-                wplayer.URL = path;
-
-                wplayer.controls.play();
+                    wplayer.controls.play();
+                    start = true;
+                }
+                else
+                {
+                    wplayer.controls.stop();
+                    start = false;
+                }
 
             }
         }

@@ -256,6 +256,7 @@
             // 
             this.Play.HeaderText = "Preview";
             this.Play.Name = "Play";
+            this.Play.Text = "Start/Stop";
             this.Play.UseColumnTextForButtonValue = true;
             // 
             // Inicio
