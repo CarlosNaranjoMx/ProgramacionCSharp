@@ -54,11 +54,52 @@ namespace MusicApp
 
         }
 
-        //contenido de la tabla
+        //contenido de la tabla de Albumes
         private void Albums_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            Carrito carrito = new Carrito();
-            carrito.ShowDialog();
+            // el indice corresponde a la casilla del boton
+            if (e.ColumnIndex == 3)
+            {
+
+                //primero obtener estas
+                int indice_renglon = e.RowIndex;
+
+                //obtenemos el valor
+                 String title = Albums.Rows[indice_renglon].Cells[1].Value.ToString();
+
+
+                var bc = new DataGridViewButtonColumn();
+                bc.HeaderText = "Eliminar";
+                bc.Text = "Carrito";
+                Object[] obj_canciones = new Object[] { title,"",bc};
+
+                //Agregamos al album de canciones
+                Canciones.Rows.Add(obj_canciones);
+
+                Albums.Visible = false;
+                Canciones.Visible = true;
+
+                //activar el radio boton
+                radioCancion.Enabled = true;
+
+                //Carrito carrito = new Carrito();
+                //carrito.ShowDialog();
+
+
+                //radioArtista.Select;
+
+                //trackBindingSource.RemoveAt(e.RowIndex);
+                //if (trackBindingSource.Count > 0)
+                //{
+                //    var totalPrice = Program.carrito.Select(t => t.Price).Aggregate((p1, p2) => p1 + p2);
+                //    totalPriceText.Text = $"${totalPrice}";
+                //}
+                //else
+                //{
+                //    totalPriceText.Text = "$0.00";
+                //    purchaseButton.Enabled = false;
+                //}
+            }
         }
 
         private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
@@ -79,6 +120,17 @@ namespace MusicApp
         private void pictureBox2_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Canciones_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            Carrito carrito = new Carrito();
+            carrito.ShowDialog();
         }
     }
 }
