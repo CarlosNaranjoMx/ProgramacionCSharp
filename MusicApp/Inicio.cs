@@ -15,6 +15,7 @@ namespace MusicApp
         public Inicio()
         {
             InitializeComponent();
+            ControladorExplorar.RellenaTabla(Albums);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -37,6 +38,16 @@ namespace MusicApp
         {
             Carrito carrito = new Carrito();
             carrito.ShowDialog();
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

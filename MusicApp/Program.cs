@@ -26,10 +26,10 @@ namespace MusicApp
             };
 
             albumes = JsonSerializer.Deserialize<List<Album>>(jsonString, options);
-            /*carrito = (from album in albumes
+            carrito = (from album in albumes
                        from track in album.Tracks
-                       select track).ToList();*/
-            carrito = new List<Track>();
+                       select track).ToList();
+            //carrito = new List<Track>();
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
