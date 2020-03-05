@@ -23,6 +23,7 @@ namespace MusicApp
             trackBindingSource.DataSource = Program.carrito;
             if (trackBindingSource.Count > 0)
             {
+                // Obtenemos la suma de las canciones
                 var totalPrice = Program.carrito.Select(t => t.Price).Aggregate((p1, p2) => p1 + p2);
                 totalPriceText.Text = $"${totalPrice}";
                 purchaseButton.Enabled = true;
@@ -31,6 +32,8 @@ namespace MusicApp
             var bc = new DataGridViewButtonColumn();
             bc.HeaderText = "Eliminar";
             bc.Text = "X";
+            bc.FlatStyle = FlatStyle.Flat;
+            bc.DefaultCellStyle.BackColor = Color.Red;
             bc.UseColumnTextForButtonValue = true;
             dataGridView1.Columns.Insert(1, bc);
         }
@@ -91,6 +94,8 @@ namespace MusicApp
                 fs.Close();
 
                 trackBindingSource.DataSource = null;
+                
+                //Vaciamos el carrito
                 Program.carrito.Clear();
 
                 MessageBox.Show("Compra registrada en el escritorio");

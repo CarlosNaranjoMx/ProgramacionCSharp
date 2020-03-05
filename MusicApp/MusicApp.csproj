@@ -87,6 +87,7 @@
       <DependentUpon>Carrito.cs</DependentUpon>
     </Compile>
     <Compile Include="AlbumClass.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="ControladorExplorar.cs" />
     <Compile Include="Functions.cs" />
     <Compile Include="Explorar.cs">

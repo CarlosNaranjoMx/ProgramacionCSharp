@@ -42,6 +42,7 @@ namespace MusicApp
 
 
                     Albums.Rows.Add(renglon);
+
                 }
                 catch { 
                 
