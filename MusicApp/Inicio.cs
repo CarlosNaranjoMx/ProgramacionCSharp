@@ -64,17 +64,23 @@ namespace MusicApp
                 //primero obtener estas
                 int indice_renglon = e.RowIndex;
 
-                //obtenemos el valor
+                //obtenemos el valor del nombre del album
                  String title = Albums.Rows[indice_renglon].Cells[1].Value.ToString();
 
 
-                var bc = new DataGridViewButtonColumn();
-                bc.HeaderText = "Eliminar";
-                bc.Text = "Carrito";
-                Object[] obj_canciones = new Object[] { title,"",bc};
+                //leer los json de las canciones
+                List<Cancion> lista = Functions.JsonParse<Cancion>($@"..\..\albums\info\{title}\.json");
+                foreach (Cancion elem in lista)
+                {
+                    var bc = new DataGridViewButtonColumn();
+                    bc.HeaderText = "Carrito";
+                    bc.Text = "Carrito";
+                    Object[] obj_canciones = new Object[] { elem.title, "", bc };
+                    //Agregamos al album de canciones
+                    Canciones.Rows.Add(obj_canciones);
+                }
 
-                //Agregamos al album de canciones
-                Canciones.Rows.Add(obj_canciones);
+
 
                 Albums.Visible = false;
                 Canciones.Visible = true;

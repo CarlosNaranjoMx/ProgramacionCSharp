@@ -17,7 +17,7 @@ namespace MusicApp
         // Lista de Albumes
         public static List<Album> albumes;
         // Lista de Canciones
-        public static List<Canciones> canciones;
+        public static List<Cancion> canciones;
         //Lista de Tracks
         public static List<Track> carrito;
 
