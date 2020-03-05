@@ -28,7 +28,7 @@ namespace MusicApp
                     bc.Text = "Carrito";
                     bc.UseColumnTextForButtonValue = true;
                     //Albums.Columns.Insert(1, bc);
-                    Object[] renglon = new Object[] { imagen, $"{elem.title}", "17-17-17", bc };
+                    Object[] renglon = new Object[] { imagen, $"{elem.title}", $"{elem.release_date}", bc };
                     Albums.RowTemplate.Height = 50;
                     Albums.Rows.Add(renglon);
                 }
