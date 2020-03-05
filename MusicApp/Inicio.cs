@@ -57,54 +57,86 @@ namespace MusicApp
         //contenido de la tabla de Albumes
         private void Albums_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+
+            int indice_renglon;
+
+            //obtenemos el valor del nombre del album
+            String title ;
+
+            int count;
+            //leer los json de las canciones
+            List<Track> lista;
             // el indice corresponde a la casilla del boton
             if (e.ColumnIndex == 3)
             {
 
                 //primero obtener estas
-                int indice_renglon = e.RowIndex;
+                indice_renglon = e.RowIndex;
 
                 //obtenemos el valor del nombre del album
-                 String title = Albums.Rows[indice_renglon].Cells[1].Value.ToString();
+                 title = Albums.Rows[indice_renglon].Cells[1].Value.ToString();
 
-
+                count = 0;
                 //leer los json de las canciones
-                List<Cancion> lista = Functions.JsonParse<Cancion>($@"..\..\albums\info\{title}\.json");
-                foreach (Cancion elem in lista)
+                lista = Functions.JsonParse<Track>($@"..\..\albums\info\{title}\.json");
+                foreach (Track elem in lista)
                 {
+                    //agregar todas las canciones del album al carrito
+                    //Program.carrito.Add(elem);
+                    
                     var bc = new DataGridViewButtonColumn();
                     bc.HeaderText = "Carrito";
                     bc.Text = "Carrito";
-                    Object[] obj_canciones = new Object[] { elem.title, "", bc };
+                    Object[] obj_canciones = new Object[] { elem.Title,elem.Duration,elem.Artist.Name, bc };
                     //Agregamos al album de canciones
                     Canciones.Rows.Add(obj_canciones);
                 }
 
 
 
-                Albums.Visible = false;
-                Canciones.Visible = true;
+                //Albums.Visible = false;
+                //Canciones.Visible = true;
 
                 //activar el radio boton
                 radioCancion.Enabled = true;
 
-                //Carrito carrito = new Carrito();
-                //carrito.ShowDialog();
+
+            }
+
+            if (e.ColumnIndex == 4)
+            {
+
+                //primero obtener estas
+                indice_renglon = e.RowIndex;
+
+                //obtenemos el valor del nombre del album
+                title = Albums.Rows[indice_renglon].Cells[1].Value.ToString();
+
+                count = 0;
+                //leer los json de las canciones
+                lista = Functions.JsonParse<Track>($@"..\..\albums\info\{title}\.json");
+                foreach (Track elem in lista)
+                {
+                    //agregar todas las canciones del album al carrito
+                    Program.carrito.Add(elem);
+
+                    var bc = new DataGridViewButtonColumn();
+                    bc.HeaderText = "Carrito";
+                    bc.Text = "Carrito";
+                    Object[] obj_canciones = new Object[] { elem.Title, elem.Duration, elem.Artist.Name, bc };
+                    //Agregamos al album de canciones
+                    Canciones.Rows.Add(obj_canciones);
+                }
 
 
-                //radioArtista.Select;
 
-                //trackBindingSource.RemoveAt(e.RowIndex);
-                //if (trackBindingSource.Count > 0)
-                //{
-                //    var totalPrice = Program.carrito.Select(t => t.Price).Aggregate((p1, p2) => p1 + p2);
-                //    totalPriceText.Text = $"${totalPrice}";
-                //}
-                //else
-                //{
-                //    totalPriceText.Text = "$0.00";
-                //    purchaseButton.Enabled = false;
-                //}
+                //Albums.Visible = false;
+                //Canciones.Visible = true;
+
+                //activar el radio boton
+                radioCancion.Enabled = true;
+
+
             }
         }
 
@@ -135,6 +167,24 @@ namespace MusicApp
 
         private void Canciones_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex == 3)
+            {
+                //Recuperemos el Track
+                Track track = new Track();
+                Artist artist = new Artist();
+
+                //obtenemos el valor del nombre del album
+                track.Title = Canciones.Rows[e.RowIndex].Cells[0].Value.ToString();
+                track.Duration = (int) Canciones.Rows[e.RowIndex].Cells[1].Value;
+                artist.Name = Canciones.Rows[e.RowIndex].Cells[2].Value.ToString();
+                track.Artist = artist;
+                track.Price = 30;
+                Program.carrito.Add(track);
+            }
+        }
+
+        private void pictureBox4_Click_1(object sender, EventArgs e)
+        { 
             Carrito carrito = new Carrito();
             carrito.ShowDialog();
         }

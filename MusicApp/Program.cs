@@ -16,8 +16,6 @@ namespace MusicApp
 
         // Lista de Albumes
         public static List<Album> albumes;
-        // Lista de Canciones
-        public static List<Cancion> canciones;
         //Lista de Tracks
         public static List<Track> carrito;
 
@@ -37,12 +35,12 @@ namespace MusicApp
                 PropertyNameCaseInsensitive = true,
             };
             albumes = JsonSerializer.Deserialize<List<Album>>(jsonString, options);
-            carrito = (from album in albumes
+            /*carrito = (from album in albumes
                        from track in album.Tracks
-                       select track).ToList();
+                       select track).ToList();*/
 
 
-            //carrito = new List<Track>();
+            carrito = new List<Track>();
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

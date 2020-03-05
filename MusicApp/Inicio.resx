@@ -124,6 +124,30 @@
     <value>127, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGkAAAAXCAYAAAAIqmGLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAX
+        EQAAFxEByibzPwAABC1JREFUaEPtWT1oFEEUTm9yOTE2aiEoiaCFaCmCYGmzJgFzl4hnAgaRiKIiImi0
+        CjZpxEJEi5ighXcRCwsRC00XCAgWVqJCKkFRK5O4zjd5szcz+2Z3Z++QFPvBx92993Z29n3z5mevA6h0
+        BW+qXUFosSadBTYGINL49rG1qaN3Q7DWU/krRPpE7gIbAaqSJnadW72872r4oPpcVtNw98D7ltgZTNfK
+        QZluU6AVVDuDSSFKo1oKliAORLp96E54/eCtloi2BB/RbQq0C8Ol/s+nt1bDd1PfWuLryS/hqS1DqxCf
+        mi7QLoik1lQ1ccnPyuljD2UlDXUGR6jpTJjpnT8821cPLS6S24DyP+6rj5LJwGxv/YXWhsG5PfX7FCYh
+        bIt2TMTexk0Kk1B21Yb47r5W0L4XwMQtkysbUE3jO8bY5Gfhy2sfRRWdWPGtItFR58NCPAqTsARgHxB2
+        LSZO0QaFckkzGAkiBNPsy45BZTPqX9LAATlBWahqmhl9xYqQRqxnYuPwa6gc7KQmU5HSeaOSuMRw1WTH
+        cERbGRMdyjZNkciWLfH45PwxWpXrBKrp/O4JVoQkQlgIjM0INZWKWJK0Ec6BfVjmGtPffHDxO6owiGvf
+        Xxdct8s4RiQFXKf7EE8udmCRSyLJ50Tearq098rKSPfAV5+tt5V0dv3RocUa1JMCGH5TJMPuEomz5xXJ
+        vs7uq30vvb9OIMm+1XSv/4msokopuEDNZII+XaTNyZagqIhoHbOvVXbl038T5VphJ8gRKwdPfpGMKdG1
+        EXI+CwslEg642Aik8enZBbnlHikPvqUmMsOncyKmuRlAwsykGRsIzS5i4+sGhbHTrfFba/d/iYR4MrtB
+        B1w53dV6KmtynUnhyc2DH3w2CwrWyGV3aoCdIJYihsItkeS1msDNJNgi2cnWB05ekezq1H1AfKCkTHeo
+        opHu/p/XDtz4o847JBrWKZ6bgv15XwHZD+caRcKXvKVeZzRKDTuSayUY90UcJ5IrqXlFiokgSC6JJB8L
+        HEBF4mUVYbrDd1/ivR01lwmiY84zkuBiTMgERgnV7TQyxXf9PuyapMSDX7O3tCYBtvBOUl8TgYpAovFG
+        fP7iknx74EOsTb4iAaKDzkqZ63u2oP+mSyRio7QpiLF+wWYnEjZAt0UimYJIQTmbgqttHcx6Z1CfWlOB
+        JEMoJPzMttEVH+apJAX7QYmLhhDMSNMfnkysDVB2Y61pVpiR+Miu3ZPi2ITi+vX45IVftaHRuRY7IauJ
+        Ng/Ehov0V8d3QcThs+G7DS+QA0g0kh6tSaXjP8gVg09sgTZB7u7Kg7+xvuCQinOQTL7YxVFIBGy59Vic
+        l1yxBdoIJB6JVn9XRCIx7+N8Ygu0Gfj7G8nGG21MY3ir7ToH+cQWaCNwOMUODYdavOrBb3LF4BNbwBcd
+        Hf8AevVo+9fWCwQAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGUAAABWCAYAAADWkljMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAX
@@ -264,6 +288,9 @@
   <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="Artist.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="dataGridViewButtonColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -279,19 +306,22 @@
   <metadata name="Carrito.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="AlbumCarrito.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="imageList3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>237, 17</value>
   </metadata>
-  <metadata name="AlbumImage.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="AlbumNombre.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="AlbumFecha.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Artist.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Carrito.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="dataGridViewButtonColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
