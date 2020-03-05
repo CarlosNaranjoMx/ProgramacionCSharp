@@ -20,7 +20,8 @@ namespace MusicApp
                 //    sw.WriteLine(elem.ToString());
                 //}
                 // tHe given path format is not supported
-                try{
+                try
+                {
                     System.Drawing.Image imagen = System.Drawing.Image.FromFile($@"..\..\albums\images\{elem.title}\{elem.title}.jpg");
                     var bc = new DataGridViewButtonColumn();
                     bc.HeaderText = "Carrito";
@@ -28,6 +29,7 @@ namespace MusicApp
                     bc.UseColumnTextForButtonValue = true;
                     //Albums.Columns.Insert(1, bc);
                     Object[] renglon = new Object[] { imagen, $"{elem.title}", "17-17-17", bc };
+                    Albums.RowTemplate.Height = 50;
                     Albums.Rows.Add(renglon);
                 }
                 catch { 

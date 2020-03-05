@@ -39,13 +39,13 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.Albums = new System.Windows.Forms.DataGridView();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.imageList3 = new System.Windows.Forms.ImageList(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.AlbumImage = new System.Windows.Forms.DataGridViewImageColumn();
             this.AlbumNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AlbumFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Carrito = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.imageList3 = new System.Windows.Forms.ImageList(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -155,30 +155,6 @@
             this.Albums.TabIndex = 9;
             this.Albums.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Albums_CellContentClick);
             // 
-            // AlbumImage
-            // 
-            this.AlbumImage.HeaderText = "Image";
-            this.AlbumImage.Name = "AlbumImage";
-            this.AlbumImage.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.AlbumImage.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.AlbumImage.Width = 61;
-            // 
-            // AlbumNombre
-            // 
-            this.AlbumNombre.HeaderText = "Album";
-            this.AlbumNombre.Name = "AlbumNombre";
-            // 
-            // AlbumFecha
-            // 
-            this.AlbumFecha.HeaderText = "Fecha";
-            this.AlbumFecha.Name = "AlbumFecha";
-            // 
-            // Carrito
-            // 
-            this.Carrito.HeaderText = "Carrito";
-            this.Carrito.Name = "Carrito";
-            this.Carrito.Text = "Carrito";
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
@@ -202,6 +178,32 @@
             this.pictureBox1.Size = new System.Drawing.Size(95, 82);
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
+            // 
+            // AlbumImage
+            // 
+            this.AlbumImage.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.AlbumImage.HeaderText = "Image";
+            this.AlbumImage.MinimumWidth = 20;
+            this.AlbumImage.Name = "AlbumImage";
+            this.AlbumImage.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.AlbumImage.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.AlbumImage.Width = 61;
+            // 
+            // AlbumNombre
+            // 
+            this.AlbumNombre.HeaderText = "Album";
+            this.AlbumNombre.Name = "AlbumNombre";
+            // 
+            // AlbumFecha
+            // 
+            this.AlbumFecha.HeaderText = "Fecha";
+            this.AlbumFecha.Name = "AlbumFecha";
+            // 
+            // Carrito
+            // 
+            this.Carrito.HeaderText = "Carrito";
+            this.Carrito.Name = "Carrito";
+            this.Carrito.Text = "Carrito";
             // 
             // Inicio
             // 
@@ -234,13 +236,13 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.DataGridView Albums;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.ImageList imageList3;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridViewImageColumn AlbumImage;
         private System.Windows.Forms.DataGridViewTextBoxColumn AlbumNombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn AlbumFecha;
         private System.Windows.Forms.DataGridViewButtonColumn Carrito;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.ImageList imageList3;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
