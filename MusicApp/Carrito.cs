@@ -27,6 +27,7 @@ namespace MusicApp
                 totalPriceText.Text = $"${totalPrice}";
                 purchaseButton.Enabled = true;
             }
+            // Crear Una columna con boton
             var bc = new DataGridViewButtonColumn();
             bc.HeaderText = "Eliminar";
             bc.Text = "X";
@@ -57,6 +58,7 @@ namespace MusicApp
             }
         }
 
+        // Creacion del Ticket
         private void purchaseButton_Click(object sender, EventArgs e)
         {
             purchaseButton.Enabled = false;
@@ -92,6 +94,11 @@ namespace MusicApp
 
                 MessageBox.Show("Compra registrada en el escritorio");
             }
+
+        }
+
+        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

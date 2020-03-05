@@ -31,9 +31,9 @@
             this.components = new System.ComponentModel.Container();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.purchaseButton = new System.Windows.Forms.Button();
             this.totalPriceText = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.purchaseButton = new System.Windows.Forms.Button();
             this.titleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.durationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.trackPositionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,6 +52,7 @@
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -65,8 +66,10 @@
             this.splitContainer1.Panel2.Controls.Add(this.purchaseButton);
             this.splitContainer1.Panel2.Controls.Add(this.totalPriceText);
             this.splitContainer1.Panel2.Controls.Add(this.label1);
-            this.splitContainer1.Size = new System.Drawing.Size(800, 450);
-            this.splitContainer1.SplitterDistance = 326;
+            this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel2_Paint);
+            this.splitContainer1.Size = new System.Drawing.Size(600, 366);
+            this.splitContainer1.SplitterDistance = 265;
+            this.splitContainer1.SplitterWidth = 3;
             this.splitContainer1.TabIndex = 0;
             // 
             // dataGridView1
@@ -84,21 +87,36 @@
             this.dataGridView1.DataSource = this.trackBindingSource;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(800, 326);
+            this.dataGridView1.Size = new System.Drawing.Size(600, 265);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // purchaseButton
+            // 
+            this.purchaseButton.Enabled = false;
+            this.purchaseButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.purchaseButton.Location = new System.Drawing.Point(232, 31);
+            this.purchaseButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.purchaseButton.Name = "purchaseButton";
+            this.purchaseButton.Size = new System.Drawing.Size(135, 40);
+            this.purchaseButton.TabIndex = 2;
+            this.purchaseButton.Text = "Hacer compra";
+            this.purchaseButton.UseVisualStyleBackColor = true;
+            this.purchaseButton.Click += new System.EventHandler(this.purchaseButton_Click);
             // 
             // totalPriceText
             // 
             this.totalPriceText.AutoSize = true;
             this.totalPriceText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalPriceText.Location = new System.Drawing.Point(706, 12);
+            this.totalPriceText.Location = new System.Drawing.Point(530, 10);
+            this.totalPriceText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.totalPriceText.Name = "totalPriceText";
-            this.totalPriceText.Size = new System.Drawing.Size(66, 25);
+            this.totalPriceText.Size = new System.Drawing.Size(54, 20);
             this.totalPriceText.TabIndex = 1;
             this.totalPriceText.Text = "$0.00";
             // 
@@ -106,23 +124,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(632, 12);
+            this.label1.Location = new System.Drawing.Point(474, 10);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 25);
+            this.label1.Size = new System.Drawing.Size(54, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Total:";
-            // 
-            // purchaseButton
-            // 
-            this.purchaseButton.Enabled = false;
-            this.purchaseButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.purchaseButton.Location = new System.Drawing.Point(309, 38);
-            this.purchaseButton.Name = "purchaseButton";
-            this.purchaseButton.Size = new System.Drawing.Size(180, 49);
-            this.purchaseButton.TabIndex = 2;
-            this.purchaseButton.Text = "Hacer compra";
-            this.purchaseButton.UseVisualStyleBackColor = true;
-            this.purchaseButton.Click += new System.EventHandler(this.purchaseButton_Click);
             // 
             // titleDataGridViewTextBoxColumn
             // 
@@ -175,10 +182,11 @@
             // 
             // Carrito
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.splitContainer1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Carrito";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Carrito_Load);

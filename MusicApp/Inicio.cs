@@ -36,8 +36,7 @@ namespace MusicApp
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            Carrito carrito = new Carrito();
-            carrito.ShowDialog();
+            
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -46,6 +45,12 @@ namespace MusicApp
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Carrito carrito = new Carrito();
+            carrito.ShowDialog();
+        }
+
+        private void bindingSource1_CurrentChanged(object sender, EventArgs e)
         {
 
         }

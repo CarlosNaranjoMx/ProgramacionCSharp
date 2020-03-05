@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace MusicApp
 {
@@ -21,7 +22,12 @@ namespace MusicApp
                 // tHe given path format is not supported
                 try{
                     System.Drawing.Image imagen = System.Drawing.Image.FromFile($@"..\..\albums\images\{elem.title}\{elem.title}.jpg");
-                    Object[] renglon = new Object[] { imagen, $"{elem.title}", "17-17-17" };
+                    var bc = new DataGridViewButtonColumn();
+                    bc.HeaderText = "Carrito";
+                    bc.Text = "Carrito";
+                    bc.UseColumnTextForButtonValue = true;
+                    //Albums.Columns.Insert(1, bc);
+                    Object[] renglon = new Object[] { imagen, $"{elem.title}", "17-17-17", bc };
                     Albums.Rows.Add(renglon);
                 }
                 catch { 
