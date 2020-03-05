@@ -46,8 +46,7 @@ namespace MusicApp
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Carrito carrito = new Carrito();
-            carrito.ShowDialog();
+
         }
 
         private void bindingSource1_CurrentChanged(object sender, EventArgs e)
@@ -55,12 +54,29 @@ namespace MusicApp
 
         }
 
+        //contenido de la tabla
         private void Albums_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            Carrito carrito = new Carrito();
+            carrito.ShowDialog();
+        }
+
+        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Inicio_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
         {
 
         }

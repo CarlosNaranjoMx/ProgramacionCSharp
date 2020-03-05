@@ -40,6 +40,7 @@ namespace MusicApp
 
         }
 
+        // Botones de la tabla
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.ColumnIndex == 1)

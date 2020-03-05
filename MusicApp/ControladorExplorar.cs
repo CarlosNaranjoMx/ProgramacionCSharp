@@ -22,14 +22,25 @@ namespace MusicApp
                 // tHe given path format is not supported
                 try
                 {
+
+                    //Rellenamos la lista de albumes
+                    
+
+                    //Obtenemos las imagenes del directorio
                     System.Drawing.Image imagen = System.Drawing.Image.FromFile($@"..\..\albums\images\{elem.title}\{elem.title}.jpg");
+
+                    //Creamos el boton de la tabla
                     var bc = new DataGridViewButtonColumn();
                     bc.HeaderText = "Carrito";
                     bc.Text = "Carrito";
                     bc.UseColumnTextForButtonValue = true;
-                    //Albums.Columns.Insert(1, bc);
+
                     Object[] renglon = new Object[] { imagen, $"{elem.title}", $"{elem.release_date}", bc };
+                    
+                    // Modificamos el alto de los renglones
                     Albums.RowTemplate.Height = 50;
+
+
                     Albums.Rows.Add(renglon);
                 }
                 catch { 
