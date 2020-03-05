@@ -204,6 +204,7 @@
             this.Carrito.HeaderText = "Carrito";
             this.Carrito.Name = "Carrito";
             this.Carrito.Text = "Carrito";
+            this.Carrito.UseColumnTextForButtonValue = true;
             // 
             // Inicio
             // 
