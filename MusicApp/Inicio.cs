@@ -54,5 +54,15 @@ namespace MusicApp
         {
 
         }
+
+        private void Albums_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
