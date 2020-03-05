@@ -25,24 +25,58 @@ namespace MusicApp
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
-
+            Explorar explorar = new Explorar();
+            explorar.Show();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            //string name = Albums.SelectedRows[0].Cells["Album"].Value.ToString();
-            //using (StreamWriter sw = File.AppendText(@"..\..\WriteText.txt"))
-            //{
-            //    sw.WriteLine(name);
-            //}
+
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bindingSource1_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        //contenido de la tabla
+        private void Albums_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            Carrito carrito = new Carrito();
+            carrito.ShowDialog();
+        }
+
+        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Inicio_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
         {
 
         }

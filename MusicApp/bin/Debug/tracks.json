@@ -1,0 +1,620 @@
+[
+  {
+    "name": "Metallica",
+    "tracks": [
+      {
+        "title": "Enter Sandman",
+        "duration": 331,
+        "track_position": 1,
+        "artist": {
+          "id": 119,
+          "name": "Metallica",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/119\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 9.12
+      },
+      {
+        "title": "Sad But True",
+        "duration": 323,
+        "track_position": 2,
+        "artist": {
+          "id": 119,
+          "name": "Metallica",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/119\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.32
+      },
+      {
+        "title": "Holier Than Thou",
+        "duration": 227,
+        "track_position": 3,
+        "artist": {
+          "id": 119,
+          "name": "Metallica",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/119\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.56
+      },
+      {
+        "title": "The Unforgiven",
+        "duration": 386,
+        "track_position": 4,
+        "artist": {
+          "id": 119,
+          "name": "Metallica",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/119\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 11.33
+      },
+      {
+        "title": "Wherever I May Roam",
+        "duration": 403,
+        "track_position": 5,
+        "artist": {
+          "id": 119,
+          "name": "Metallica",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/119\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.53
+      },
+      {
+        "title": "Don't Tread On Me",
+        "duration": 240,
+        "track_position": 6,
+        "artist": {
+          "id": 119,
+          "name": "Metallica",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/119\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 6.99
+      },
+      {
+        "title": "Through The Never",
+        "duration": 242,
+        "track_position": 7,
+        "artist": {
+          "id": 119,
+          "name": "Metallica",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/119\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 12.32
+      },
+      {
+        "title": "Nothing Else Matters",
+        "duration": 388,
+        "track_position": 8,
+        "artist": {
+          "id": 119,
+          "name": "Metallica",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/119\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 9.65
+      },
+      {
+        "title": "Of Wolf And Man",
+        "duration": 256,
+        "track_position": 9,
+        "artist": {
+          "id": 119,
+          "name": "Metallica",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/119\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.42
+      },
+      {
+        "title": "The God That Failed",
+        "duration": 308,
+        "track_position": 10,
+        "artist": {
+          "id": 119,
+          "name": "Metallica",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/119\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 7.19
+      },
+      {
+        "title": "My Friend Of Misery",
+        "duration": 407,
+        "track_position": 11,
+        "artist": {
+          "id": 119,
+          "name": "Metallica",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/119\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.59
+      },
+      {
+        "title": "The Struggle Within",
+        "duration": 233,
+        "track_position": 12,
+        "artist": {
+          "id": 119,
+          "name": "Metallica",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/119\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 9.88
+      }
+    ],
+    "total": 12,
+    "genre": "Metal",
+    "release_date": "1991-08-12",
+    "duration": 3744
+  },
+
+  {
+    "title": "ABBA Gold",
+    "tracks": [
+      {
+        "title": "Dancing Queen",
+        "duration": 231,
+        "track_position": 1,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 7.89
+      },
+      {
+        "title": "Knowing Me, Knowing You",
+        "duration": 241,
+        "track_position": 2,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 10.23
+      },
+      {
+        "title": "Take A Chance On Me",
+        "duration": 246,
+        "track_position": 3,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 5.67
+      },
+      {
+        "title": "Mamma Mia",
+        "duration": 210,
+        "track_position": 4,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 9.83
+      },
+      {
+        "title": "Lay All Your Love On Me",
+        "duration": 272,
+        "track_position": 5,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 7.13
+      },
+      {
+        "title": "Super Trouper",
+        "duration": 251,
+        "track_position": 6,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.90
+      },
+      {
+        "title": "I Have A Dream",
+        "duration": 283,
+        "track_position": 7,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 6.78
+      },
+      {
+        "title": "The Winner Takes It All",
+        "duration": 295,
+        "track_position": 8,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 6.35
+      },
+      {
+        "title": "Money, Money, Money",
+        "duration": 186,
+        "track_position": 9,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.66
+      },
+      {
+        "title": "SOS",
+        "duration": 201,
+        "track_position": 10,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 5.67
+      },
+      {
+        "title": "Chiquitita",
+        "duration": 325,
+        "track_position": 11,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 9.88
+      },
+      {
+        "title": "Fernando",
+        "duration": 252,
+        "track_position": 12,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 7.36
+      },
+      {
+        "title": "Voulez-Vous",
+        "duration": 306,
+        "track_position": 13,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 7.11
+      },
+      {
+        "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+        "duration": 289,
+        "track_position": 14,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 9.17
+      },
+      {
+        "title": "Does Your Mother Know",
+        "duration": 193,
+        "track_position": 15,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 7.11
+      },
+      {
+        "title": "One Of Us",
+        "duration": 234,
+        "track_position": 16,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.78
+      },
+      {
+        "title": "The Name Of The Game",
+        "duration": 292,
+        "track_position": 17,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.45
+      },
+      {
+        "title": "Thank You For The Music",
+        "duration": 228,
+        "track_position": 18,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 9.89
+      },
+      {
+        "title": "Waterloo",
+        "duration": 165,
+        "track_position": 19,
+        "artist": {
+          "id": 180,
+          "name": "ABBA",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/180\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.78
+      }
+    ],
+    "total": 19,
+    "genre": "Rock",
+    "release_date": "2008-06-02",
+    "duration": 4700
+  },
+
+  {
+    "name": "Californication (Deluxe Edition)",
+    "tracks": [
+      {
+        "title": "Around the World",
+        "duration": 238,
+        "track_position": 1,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.67
+      },
+      {
+        "title": "Parallel Universe",
+        "duration": 269,
+        "track_position": 2,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.19
+      },
+      {
+        "title": "Scar Tissue",
+        "duration": 215,
+        "track_position": 3,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 7.24
+      },
+      {
+        "title": "Otherside",
+        "duration": 255,
+        "track_position": 4,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 9.67
+      },
+      {
+        "title": "Get on Top",
+        "duration": 198,
+        "track_position": 5,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 10.31
+      },
+      {
+        "title": "Californication",
+        "duration": 329,
+        "track_position": 6,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 12.99
+      },
+      {
+        "title": "Easily",
+        "duration": 231,
+        "track_position": 7,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.45
+      },
+      {
+        "title": "Porcelain",
+        "duration": 163,
+        "track_position": 8,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 9.56
+      },
+      {
+        "title": "Emit Remmus",
+        "duration": 240,
+        "track_position": 9,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.90
+      },
+      {
+        "title": "I Like Dirt",
+        "duration": 157,
+        "track_position": 10,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 7.89
+      },
+      {
+        "title": "This Velvet Glove",
+        "duration": 225,
+        "track_position": 11,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 9.35
+      },
+      {
+        "title": "Savior",
+        "duration": 292,
+        "track_position": 12,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 7.73
+      },
+      {
+        "title": "Purple Stain",
+        "duration": 253,
+        "track_position": 13,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 10.59
+      },
+      {
+        "title": "Right on Time",
+        "duration": 112,
+        "track_position": 14,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 7.19
+      },
+      {
+        "title": "Road Trippin'",
+        "duration": 205,
+        "track_position": 15,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 7.21
+      },
+      {
+        "title": "Fat Dance (2006 Remaster)",
+        "duration": 220,
+        "track_position": 16,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 8.45
+      },
+      {
+        "title": "Over Funk (2006 Remaster)",
+        "duration": 178,
+        "track_position": 17,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 9.10
+      },
+      {
+        "title": "Quixoticelixer (2006 Remaster)",
+        "duration": 288,
+        "track_position": 18,
+        "artist": {
+          "id": 182,
+          "name": "Red Hot Chili Peppers",
+          "tracklist": "https:\/\/api.deezer.com\/artist\/182\/top?limit=50",
+          "type": "artist"
+        },
+        "price": 6.19
+      }
+    ],
+    "total": 18,
+    "genre": "Alternative",
+    "release_date": "1999-06-07",
+    "duration": 4068
+  }
+
+]
