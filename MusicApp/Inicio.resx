@@ -257,32 +257,10 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAGIAAAAXCAYAAADwSpp8AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAX
-        EQAAFxEByibzPwAABFVJREFUaEPtWD1oFEEUTm9yORNttBGUS0AL0VIEwdJm86NJ7s7kjKBIiCgqEgSN
-        VsHGRixETJEo2lwiChYiImoXCAiCliqmsvCny4/r++bebN7M7tzt3a3EYj943M2btzOz75v33sy2uJDf
-        5O0dynjnhtq8V8X23l/F9r6v+TZvjmQafWyW4l8CBBTa+36T0/3xnWOrU4dv+zcO3PQv7rnsj3QOrkIP
-        Qgaz3g5+JEWSKGW97HD26DM4Gs5/fOadP39+0b/T+8i/deS+ar+c/KLaTIY/2Ood4sdTJAWQMNIxsAxH
-        w+mIBu1wKSDl7dR31Y+0lUZGgqBa4Gkng4iRzoGV45v7P5CuhEiBDXZ/odW7Bbuzu8ZVdJS2DK3lM96i
-        GiRFc4Cji9n+N6e3n1xDKkIdQHRoAmyAEJABwu7ln6QpKingFARnzoy+ULUBhdpFggbZ4wTlP5/4VElZ
-        rd4kd6VoFHqHIxoQFXAydzmhUxlqCU5T+UzPD+5qCA+6ykskvktmu8qjsMNvoM/NXVMPM0inx1hgFXQL
-        rDPkYXf5LpsEIH3IVs8rQfrKPLnyU1YZwNhyDEMczyjguCp3N+oAdzmBiIEt0hOOtrhncFfdmMnNH4xc
-        tCWwxYsEOvFSBkHa1kECy5J6kABCI/orYjnOdjLWzl0BSF9tXkgwtwGkFU1E3IiQ6ezK/us+Ln7cVTds
-        J7pE2UkixM63x5jNzY/Jti06ImrNjX41ASNkE7HDSV81upVY0aygdzcKL5waJ81I8k5tG12h/9PcVTds
-        Z7BagdrrL4Wd2xgRgZ0N9Ak7Y24brpTD3QFIF6xZpkC5dqk3UMj0fkaKQc6Hg5GuuCsE3Btwf5jYd3UZ
-        EQH7Zop1rV3JosI5qYiAvZ0SoePhIiFtpdhOJV2IiNhz6R0OIlRU0P+oWqHuEkQa7hko7hd2X1pBu9Yp
-        qxpiELFefGMSwS9eNVfP5MpTss1DRSIUDeY6qkSxaad1bBoNOra+xx0C6QYXO7XTKzKHGjDccewj2nC+
-        /vSBNvqa+RAYgwhIXRHBatMptnSXX8u2c5cSpB3WEDpgiJxPbSMiAhtus5kb2NWFTM9P3JZRL+BsEILj
-        qf74Bz2iBmkJJJzYmldkIFU1SobLiQC1g5eCnfViwenDfmFWh2DMVSHVIIrNDISiIVrWT2EWEfbz1QgP
-        oE5DGW8RzsVnDBCBOgDRR1WkJeV4sgE5iCAi70+jZNhEuAR2sWw59K3oCYlyULWjK0nctSnhqKD/BhG2
-        Dv+hiwVyckmlHHK2lGK2/xtqB6JH9yNKmiEjFOYOYfOaDsZ4yi6iT4q2q7HjjYixd7PRrzeAqE2aCJtQ
-        PXddwCkJzo0qyEmRQYszXtgWe+GOnWzsNGo7i3WUI0gfXkNlnoqeHS0h16FJksRK4oINFDFOIiAi1Hcn
-        pK5m01SKJkFETEsycENPydggSDJQ1PE//Sq7QdBkpCT8B1BkpCTUgZaWvxWNi9w/GxNMAAAAAElFTkSu
-        QmCC
-</value>
-  </data>
   <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Album.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -292,6 +270,24 @@
     <value>True</value>
   </metadata>
   <metadata name="dataGridViewButtonColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Play.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AlbumImage.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AlbumNombre.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AlbumFecha.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Carrito.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AlbumCarrito.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="AlbumImage.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

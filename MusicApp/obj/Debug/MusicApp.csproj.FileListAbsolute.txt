@@ -75,3 +75,9 @@ C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\bin\Debug\System.Te
 C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\bin\Debug\System.ValueTuple.xml
 C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\obj\Debug\MusicApp.Carrito.resources
+C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\bin\Debug\Interop.WMPLib.dll
+C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\obj\Debug\Interop.WMPLib.dll
+C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\obj\Debug\MusicApp.csproj.ResolveComReference.cache
+C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\bin\Debug\WindowsBase.dll

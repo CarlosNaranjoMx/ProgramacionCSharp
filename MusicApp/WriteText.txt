@@ -9,3 +9,12 @@ album name : Bohemian Rhapsody (The Original Soundtrack)
 album name : SAILORWAVE
 album name : A Millions Miles Away
 album name : Moe Moe
+C:\Users\cnaranjo\Music\Electric Light Orchestra\The Best Of ELO\Can't Get It Out Of My Head.mp3
+C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\albums\previews\Alive 2007\Burnin'  Too Long.mp3
+C:\Users\cnaranjo\Music\Britney Spears\Circus (Deluxe Version)\Kill the Lights.mp3
+C:\Users\cnaranjo\Music\John Lennon\Imagine\Imagine.mp3
+C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\albums\previews\Alive 2007\Burnin'  Too Long.mp3
+C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\albums\previews\Alive 2007\Da Funk  Daftendirekt.mp3
+C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\albums\previews\Getting Better (Remastered 2009)\The Beatles.mp3
+..\..\albums\previews\ABBA Gold\Chiquitita.mp3
+C:\Users\cnaranjo\TODO\02-github\ProgramacionCSharp\MusicApp\albums\previews\Kpop\Mochila Mcm.mp3

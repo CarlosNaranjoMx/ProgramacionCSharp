@@ -14,5 +14,6 @@ namespace MusicApp
         public int Track_Position { get; set; }
         public Artist Artist { get; set; }
         public float Price { get; set; }
+        public String album { get; set; }
     }
 }

@@ -3,15 +3,19 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace MusicApp
 {
     public partial class Inicio : Form
     {
+        Mp3Player mp3Player = new Mp3Player();
         public Inicio()
         {
             InitializeComponent();
@@ -90,7 +94,13 @@ namespace MusicApp
                     var bc = new DataGridViewButtonColumn();
                     bc.HeaderText = "Carrito";
                     bc.Text = "Carrito";
-                    Object[] obj_canciones = new Object[] { elem.Title,elem.Duration,elem.Artist.Name, bc };
+
+                    var bc2 = new DataGridViewButtonColumn();
+                    bc2.HeaderText = "Carrito";
+                    bc2.Text = "Carrito";
+
+                    elem.album = title;
+                    Object[] obj_canciones = new Object[] { elem.Title,elem.album,elem.Duration,elem.Artist.Name, bc,bc2 };
                     //Agregamos al album de canciones
                     Canciones.Rows.Add(obj_canciones);
                 }
@@ -169,7 +179,7 @@ namespace MusicApp
 
 
 
-            if (e.ColumnIndex == 3)
+            if (e.ColumnIndex == 4)
             {
                 //Recuperemos el Track
                 Track track = new Track();
@@ -179,10 +189,27 @@ namespace MusicApp
                 track.Title = Canciones.Rows[e.RowIndex].Cells[0].Value.ToString();
                 track.Duration = (int) Canciones.Rows[e.RowIndex].Cells[1].Value;
                 //track.Track_Position = 0;
-                artist.Name = Canciones.Rows[e.RowIndex].Cells[2].Value.ToString();
+                artist.Name = Canciones.Rows[e.RowIndex].Cells[1].Value.ToString();
                 track.Artist = artist;
                 track.Price = 30;
                 Program.carrito.Add(track);
+            }
+            if (e.ColumnIndex == 5)
+            {
+                //titulo de la cancion
+                String Title = Canciones.Rows[e.RowIndex].Cells[0].Value.ToString();
+                //Nombre  del album
+                String Name = Canciones.Rows[e.RowIndex].Cells[1].Value.ToString();
+
+                WMPLib.WindowsMediaPlayer wplayer = new WMPLib.WindowsMediaPlayer();
+                String cadena = $@"..\..\albums\previews\{Name}\{Title}.mp3";
+                //Mostrar Nombres de los albums
+                String path = Path.GetFullPath(cadena);
+                // tHe given path format is not supported
+                wplayer.URL = path;
+
+                wplayer.controls.play();
+
             }
         }
 
@@ -225,6 +252,9 @@ namespace MusicApp
             }
         }
 
+        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        {
 
+        }
     }
 }
