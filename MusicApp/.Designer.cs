@@ -33,37 +33,35 @@
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.radioCancion = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioArtista = new System.Windows.Forms.RadioButton();
             this.Canciones = new System.Windows.Forms.DataGridView();
-            this.Albums = new System.Windows.Forms.DataGridView();
-            this.imageList3 = new System.Windows.Forms.ImageList(this.components);
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Artist = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewButtonColumn1 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.Albums = new System.Windows.Forms.DataGridView();
             this.AlbumImage = new System.Windows.Forms.DataGridViewImageColumn();
             this.AlbumNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AlbumFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Carrito = new System.Windows.Forms.DataGridViewButtonColumn();
             this.AlbumCarrito = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.imageList3 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Canciones)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Albums)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // imageList1
@@ -92,9 +90,7 @@
             this.splitContainer1.Panel1.Controls.Add(this.pictureBox2);
             this.splitContainer1.Panel1.Controls.Add(this.textBox1);
             this.splitContainer1.Panel1.Controls.Add(this.pictureBox3);
-            this.splitContainer1.Panel1.Controls.Add(this.radioButton3);
             this.splitContainer1.Panel1.Controls.Add(this.radioButton2);
-            this.splitContainer1.Panel1.Controls.Add(this.radioArtista);
             // 
             // splitContainer1.Panel2
             // 
@@ -105,16 +101,27 @@
             this.splitContainer1.SplitterDistance = 282;
             this.splitContainer1.TabIndex = 0;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(85, 244);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(106, 20);
+            this.pictureBox4.TabIndex = 27;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click_1);
+            // 
             // radioCancion
             // 
             this.radioCancion.AutoSize = true;
-            this.radioCancion.Location = new System.Drawing.Point(29, 160);
+            this.radioCancion.Location = new System.Drawing.Point(29, 159);
             this.radioCancion.Name = "radioCancion";
             this.radioCancion.Size = new System.Drawing.Size(75, 17);
             this.radioCancion.TabIndex = 26;
             this.radioCancion.TabStop = true;
             this.radioCancion.Text = "Canciones";
             this.radioCancion.UseVisualStyleBackColor = true;
+            this.radioCancion.CheckedChanged += new System.EventHandler(this.radioCancion_CheckedChanged);
             // 
             // pictureBox1
             // 
@@ -152,17 +159,6 @@
             this.pictureBox3.TabIndex = 21;
             this.pictureBox3.TabStop = false;
             // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(29, 136);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(60, 17);
-            this.radioButton3.TabIndex = 20;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Genero";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
@@ -173,18 +169,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Album";
             this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioArtista
-            // 
-            this.radioArtista.AutoSize = true;
-            this.radioArtista.Location = new System.Drawing.Point(29, 90);
-            this.radioArtista.Name = "radioArtista";
-            this.radioArtista.Size = new System.Drawing.Size(54, 17);
-            this.radioArtista.TabIndex = 18;
-            this.radioArtista.TabStop = true;
-            this.radioArtista.Text = "Artista";
-            this.radioArtista.UseVisualStyleBackColor = true;
-            this.radioArtista.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged_1);
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // Canciones
             // 
@@ -194,33 +179,12 @@
             this.dataGridViewTextBoxColumn2,
             this.Artist,
             this.dataGridViewButtonColumn1});
-            this.Canciones.Location = new System.Drawing.Point(17, 75);
+            this.Canciones.Location = new System.Drawing.Point(17, 12);
             this.Canciones.Name = "Canciones";
             this.Canciones.Size = new System.Drawing.Size(533, 483);
             this.Canciones.TabIndex = 10;
             this.Canciones.Visible = false;
             this.Canciones.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Canciones_CellContentClick);
-            // 
-            // Albums
-            // 
-            this.Albums.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Albums.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.AlbumImage,
-            this.AlbumNombre,
-            this.AlbumFecha,
-            this.Carrito,
-            this.AlbumCarrito});
-            this.Albums.Location = new System.Drawing.Point(17, 12);
-            this.Albums.Name = "Albums";
-            this.Albums.Size = new System.Drawing.Size(533, 483);
-            this.Albums.TabIndex = 9;
-            this.Albums.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Albums_CellContentClick);
-            // 
-            // imageList3
-            // 
-            this.imageList3.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList3.ImageSize = new System.Drawing.Size(16, 16);
-            this.imageList3.TransparentColor = System.Drawing.Color.Transparent;
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -244,15 +208,20 @@
             this.dataGridViewButtonColumn1.Text = "Carrito";
             this.dataGridViewButtonColumn1.UseColumnTextForButtonValue = true;
             // 
-            // pictureBox4
+            // Albums
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(85, 244);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(106, 20);
-            this.pictureBox4.TabIndex = 27;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click_1);
+            this.Albums.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Albums.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.AlbumImage,
+            this.AlbumNombre,
+            this.AlbumFecha,
+            this.Carrito,
+            this.AlbumCarrito});
+            this.Albums.Location = new System.Drawing.Point(17, 12);
+            this.Albums.Name = "Albums";
+            this.Albums.Size = new System.Drawing.Size(533, 483);
+            this.Albums.TabIndex = 9;
+            this.Albums.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Albums_CellContentClick);
             // 
             // AlbumImage
             // 
@@ -290,6 +259,12 @@
             this.AlbumCarrito.Text = "Añadir al Carrito";
             this.AlbumCarrito.UseColumnTextForButtonValue = true;
             // 
+            // imageList3
+            // 
+            this.imageList3.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList3.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList3.TransparentColor = System.Drawing.Color.Transparent;
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -305,12 +280,12 @@
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Canciones)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Albums)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -319,9 +294,7 @@
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.ImageList imageList2;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioArtista;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.DataGridView Albums;

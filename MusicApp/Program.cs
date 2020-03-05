@@ -12,10 +12,10 @@ namespace MusicApp
     static class Program
     {
         // Lista de ALbumsClass
-        public static List<AlbumClass> albumClasses;
+        public static List<AlbumClass> albumClasses = new List<AlbumClass>();
 
         // Lista de Albumes
-        public static List<Album> albumes;
+        public static List<Album> albumes { get; set; } = new List<Album>();
         //Lista de Tracks
         public static List<Track> carrito;
 
@@ -27,14 +27,30 @@ namespace MusicApp
         static void Main()
         {
 
-
-            // Transformamos todas las canciones en objetos
-            string jsonString = File.ReadAllText("tracks.json");
-            var options = new JsonSerializerOptions
+            List<AlbumClass> lista = Functions.JsonParse<AlbumClass>(@"..\..\albums\albums.json");
+            Album album;
+            foreach (AlbumClass elem in lista)
             {
-                PropertyNameCaseInsensitive = true,
-            };
-            albumes = JsonSerializer.Deserialize<List<Album>>(jsonString, options);
+
+                //    //Obtenemos las imagenes del directorio
+                //    System.Drawing.Image imagen = System.Drawing.Image.FromFile($@"..\..\albums\images\{elem.title}\{elem.title}.jpg");
+                try
+                {
+
+                    album = new Album();
+                    album.Name = elem.title;
+                    album.Release_Date = elem.release_date;
+                    List<Track> lista_t = Functions.JsonParse<Track>($@"..\..\albums\info\{elem.title}\.json");
+                    album.Tracks = lista_t;
+
+                    //Rellenamos la lista de albumes
+                    albumes.Add(album);
+
+                }
+                catch { }
+            }
+
+
             /*carrito = (from album in albumes
                        from track in album.Tracks
                        select track).ToList();*/

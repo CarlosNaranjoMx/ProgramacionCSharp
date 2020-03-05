@@ -20,6 +20,7 @@ namespace MusicApp
 
         private void Carrito_Load(object sender, EventArgs e)
         {
+            //Llenamos la tabla
             trackBindingSource.DataSource = Program.carrito;
             if (trackBindingSource.Count > 0)
             {
